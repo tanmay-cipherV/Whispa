@@ -1,0 +1,86 @@
+
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies (both mobile and server)
+node_modules/
+mobile/node_modules/
+server/node_modules/
+
+# Expo (mobile-specific)
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/expo-env.d.ts
+
+# Native (mobile-specific)
+mobile/.kotlin/
+mobile/*.orig.*
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.key
+mobile/*.mobileprovision
+
+# Metro (mobile-specific)
+mobile/.metro-health-check*
+
+# Debug files (both)
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+mobile/npm-debug.*
+mobile/yarn-debug.*
+mobile/yarn-error.*
+server/npm-debug.*
+server/yarn-debug.*
+server/yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Environment files (both mobile and server)
+.env
+.env.local
+.env*.local
+mobile/.env
+mobile/.env.local
+mobile/.env*.local
+server/.env
+server/.env.local
+server/.env*.local
+
+# TypeScript
+*.tsbuildinfo
+mobile/*.tsbuildinfo
+server/*.tsbuildinfo
+
+# Build outputs
+dist/
+build/
+mobile/dist/
+mobile/build/
+server/dist/
+server/build/
+
+# Logs
+logs/
+*.log
+mobile/logs/
+mobile/*.log
+server/logs/
+server/*.log
+
+# Server-specific ignores
+server/uploads/
+server/temp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
